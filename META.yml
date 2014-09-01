@@ -17,12 +17,13 @@ meta-spec:
 name: Math-Shape-Rectangle
 requires:
   Carp: '0'
+  List::Util: '0'
   Math::Shape::Point: '0'
-  Math::Trig: '0'
+  Math::Trig: '1.22'
   perl: '5.008'
   strict: '0'
   warnings: '0'
 resources:
   homepage: https://github.com/sillymoose/Math-Shape-Rectangle
   repository: https://github.com/sillymoose/Math-Shape-Rectangle.git
-version: '0.02'
+version: '0.03'

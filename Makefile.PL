@@ -21,8 +21,9 @@ my %WriteMakefileArgs = (
   "NAME" => "Math::Shape::Rectangle",
   "PREREQ_PM" => {
     "Carp" => 0,
+    "List::Util" => 0,
     "Math::Shape::Point" => 0,
-    "Math::Trig" => 0,
+    "Math::Trig" => "1.22",
     "strict" => 0,
     "warnings" => 0
   },
@@ -31,7 +32,7 @@ my %WriteMakefileArgs = (
     "Test::Exception" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => "t/*.t"
   }
@@ -40,9 +41,10 @@ my %WriteMakefileArgs = (
 
 my %FallbackPrereqs = (
   "Carp" => 0,
+  "List::Util" => 0,
   "Math::Shape::Grid" => 0,
   "Math::Shape::Point" => 0,
-  "Math::Trig" => 0,
+  "Math::Trig" => "1.22",
   "Test::Exception" => 0,
   "Test::More" => 0,
   "strict" => 0,
